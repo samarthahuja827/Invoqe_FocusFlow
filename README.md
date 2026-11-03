@@ -1,16 +1,56 @@
-# React + Vite
+# FocusFlow – Student Productivity Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FocusFlow is a responsive landing page for a student productivity platform. It is designed to help students organise their studies, manage daily tasks and build better study habits.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive design for desktop, tablet and mobile.
+- Interactive navigation menu.
+- Student-focused landing page with multiple sections.
+- Interactive study planner with task completion tracking.
+- Dynamic progress percentage.
+- Contact form with basic validation and demo submission message.
+- Smooth scrolling and hover effects.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS
+- Vite
+- JavaScript
+- HTML5
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/samarthahuja827/Invoqe_FocusFlow.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd invoqe-landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Note
+
+The contact form currently demonstrates client-side validation and a success message. It does not send actual emails.
+
+## Project
+
+Developed as part of the Invoqe Frontend Development Internship.
+
